@@ -1,6 +1,6 @@
-import '../lib/math_utils.dart';
-import '../lib/statistics.dart';
-import '../lib/complex.dart';
+import 'package:mathre/math_utils.dart';
+import 'package:mathre/statistics.dart';
+import 'package:mathre/complex.dart';
 import 'dart:math' as math;
 import 'dart:math' show Random;
 
@@ -189,16 +189,12 @@ void visualizeMathematicalFunctions() {
   // Print the grid
   print('Legend: · = sin(x), o = cos(x), * = x²/10, × = sin∩cos, # = overlap');
   for (int row = 0; row < height; row++) {
-    print(grid[row].join(''));
+    print(grid[row].join());
   }
 
   // Add axis labels
-  print(''.padLeft(width ~/ 4) +
-      '-π' +
-      ''.padLeft(width ~/ 4) +
-      '0' +
-      ''.padLeft(width ~/ 4) +
-      '+π');
+  print(
+      '${''.padLeft(width ~/ 4)}-π${''.padLeft(width ~/ 4)}0${''.padLeft(width ~/ 4)}+π');
   print('');
 }
 

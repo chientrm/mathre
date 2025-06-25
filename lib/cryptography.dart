@@ -2,6 +2,7 @@
 ///
 /// This module provides cryptographic functions useful for research
 /// and educational purposes in mathematical cryptography.
+library;
 
 import 'dart:math' as math;
 import 'number_theory.dart';
@@ -89,7 +90,7 @@ class Cryptography {
             ((char.codeUnitAt(0) - 97 + shift) % 26) + 97);
       }
       return char;
-    }).join('');
+    }).join();
   }
 
   /// Vigenère cipher

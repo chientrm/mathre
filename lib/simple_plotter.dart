@@ -64,11 +64,11 @@ class SimplePlotter {
     for (int row = 0; row < height; row++) {
       double yValue = yMax - (row / (height - 1)) * (yMax - yMin);
       String yLabel = yValue.toStringAsFixed(1).padLeft(6);
-      print('$yLabel |${grid[row].join('')}');
+      print('$yLabel |${grid[row].join()}');
     }
 
     // Print x-axis
-    print('       ' + '-' * width);
+    print('       ${'-' * width}');
     String xAxisLabels = '       ${xMin.toStringAsFixed(1)}';
     xAxisLabels += ' ' *
         (width -
@@ -119,11 +119,11 @@ class SimplePlotter {
     for (int row = 0; row < height; row++) {
       double yValue = yMax - (row / (height - 1)) * (yMax - yMin);
       String yLabel = yValue.toStringAsFixed(1).padLeft(6);
-      print('$yLabel |${grid[row].join('')}');
+      print('$yLabel |${grid[row].join()}');
     }
 
     // Print x-axis
-    print('       ' + '-' * width);
+    print('       ${'-' * width}');
     String xAxisLabels = '       ${xMin.toStringAsFixed(1)}';
     xAxisLabels += ' ' *
         (width -
@@ -213,7 +213,7 @@ void main() {
   }
 
   SimplePlotter.scatterPlot(xValues, sinValues,
-      title: 'Sine Function: y = sin(x)', symbol: '•');
+      title: 'Sine Function: y = sin(x)');
 
   // Example 4: Histogram of random data
   List<double> randomData = [];

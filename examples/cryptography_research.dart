@@ -1,4 +1,4 @@
-import '../lib/cryptography.dart';
+import 'package:mathre/cryptography.dart';
 import 'dart:math' as math;
 
 void main() {
@@ -6,7 +6,7 @@ void main() {
 
   // Classical Ciphers
   print('=== Classical Cryptography ===');
-  String message = "HELLO CRYPTOGRAPHY WORLD";
+  String message = 'HELLO CRYPTOGRAPHY WORLD';
 
   // Caesar Cipher
   print('Original: $message');
@@ -16,7 +16,7 @@ void main() {
   print('Caesar (-3): $caesarDecrypt');
 
   // Vigenère Cipher
-  String key = "DART";
+  String key = 'DART';
   String vigenere = Cryptography.vigenereCipher(message, key);
   print('Vigenère (key: $key): $vigenere');
   String vigenereDecrypt =
@@ -24,11 +24,11 @@ void main() {
   print('Vigenère decrypt: $vigenereDecrypt');
 
   print('\n=== Frequency Analysis ===');
-  String sampleText = """
+  String sampleText = '''
   The quick brown fox jumps over the lazy dog. This pangram contains every 
   letter of the alphabet at least once, making it useful for testing 
   cryptographic algorithms and frequency analysis techniques.
-  """;
+  ''';
 
   var frequencies = Cryptography.frequencyAnalysis(sampleText);
   print('Letter frequencies in sample text:');
@@ -75,14 +75,14 @@ void main() {
 
   // Test different cipher strengths
   List<String> testTexts = [
-    "HELLO WORLD", // Very short
-    "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", // English pangram
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZ", // Alphabet
-    "AAAAAAAAAAAAAAAAAAAAAAAAAAA", // Repeated character
+    'HELLO WORLD', // Very short
+    'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG', // English pangram
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZ', // Alphabet
+    'AAAAAAAAAAAAAAAAAAAAAAAAAAA', // Repeated character
   ];
 
   for (String text in testTexts) {
-    String encrypted = Cryptography.vigenereCipher(text, "SECRET");
+    String encrypted = Cryptography.vigenereCipher(text, 'SECRET');
     double chi = Cryptography.chiSquaredTest(encrypted);
     print(
         'Text: "${text.substring(0, math.min(20, text.length))}"${text.length > 20 ? '...' : ''}');
