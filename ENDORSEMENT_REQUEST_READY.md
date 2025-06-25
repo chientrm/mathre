@@ -29,8 +29,7 @@ I hope this email finds you well. I am writing to request your endorsement for s
 **Supporting Materials**:
 
 - Complete project repository: https://github.com/chientrm/mathre
-- Project showcase: https://chientrm.github.io/mathre/
-- Philosophical exploration: Available in the repository
+- Philosophical exploration: https://github.com/chientrm/mathre/blob/main/PHILOSOPHICAL_EXPLORATION.md
 
 **Endorsement Details**:
 
@@ -49,7 +48,6 @@ Chien Tran
 Independent Researcher
 chientrm@gmail.com
 GitHub: https://github.com/chientrm/mathre
-Project: https://chientrm.github.io/mathre/
 
 ---
 
@@ -76,9 +74,9 @@ Project: https://chientrm.github.io/mathre/
 ## 📋 Email Sending Checklist
 
 - [x] Copy email text above
-- [ ] Send to: eokon@filosoficas.unam.mx
-- [ ] BCC yourself for records
-- [ ] Attach your PDF paper (optional for initial contact)
+- [x] Send to: eokon@filosoficas.unam.mx
+- [x] BCC yourself for records
+- [O] Attach your PDF paper (optional for initial contact)
 - [ ] Follow up in 5-7 days if no response
 - [ ] Prepare backup endorsement requests
 
