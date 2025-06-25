@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathematical Research with Dart</title>
+    <style>
+        body { 
+            font-family: 'Courier New', monospace; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background: #0d1117;
+            color: #c9d1d9;
+        }
+        .header { text-align: center; margin-bottom: 40px; }
+        .feature { margin: 30px 0; padding: 20px; background: #161b22; border-radius: 8px; }
+        .ascii-demo { 
+            background: #000; 
+            color: #0f0; 
+            padding: 15px; 
+            font-family: monospace; 
+            font-size: 8px; 
+            overflow-x: auto;
+            border-radius: 4px;
+        }
+        .code { 
+            background: #1c2128; 
+            padding: 15px; 
+            border-radius: 4px; 
+            overflow-x: auto;
+        }
+        a { color: #58a6ff; }
+        h1, h2 { color: #f0f6fc; }
+        .philosophy { 
+            background: linear-gradient(45deg, #1a1b3a, #2a1b3a);
+            border-left: 4px solid #7c3aed;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🧮 Mathematical Research with Dart</h1>
+        <p>Exploring number theory, complex analysis, and the nature of reality through code</p>
+        <a href="https://github.com/chientrm/mathre" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="feature">
+        <h2>🔢 Prime Number Visualization</h2>
+        <p>Discover patterns in prime distribution using the Sieve of Eratosthenes:</p>
+        <div class="ascii-demo">
+ 0:     * * . * . * . . 
+10: . * . * . . . * . * 
+20: . . . * . . . . . * 
+30: . * . . . . . * . . 
+40: . * . * . . . * . . 
+50: . . . * . . . . . * 
+60: . * . . . . . * . . 
+70: . * . * . . . . . * 
+80: . . . * . . . . . * 
+90: . . . . . . . * . . 
+        </div>
+    </div>
+
+    <div class="feature">
+        <h2>🌀 Mandelbrot Set Fractal</h2>
+        <p>ASCII visualization of the famous fractal:</p>
+        <div class="ascii-demo">
+                                  ░░▒▒▓▓██▓▓▒▒░░                                  
+                              ░░▒▒▓▓████████████▓▓▒▒░░                              
+                          ░░▒▒▓▓██████████████████████▓▓▒▒░░                          
+                      ░░▒▒▓▓████████████████████████████████▓▓▒▒░░                      
+              ░░▒▒▓▓██████████████████████████████████████████████▓▓▒▒░░              
+████████████████████████████████████████████████████████████████████████████████████
+              ░░▒▒▓▓██████████████████████████████████████████████▓▓▒▒░░              
+                      ░░▒▒▓▓████████████████████████████████▓▓▒▒░░                      
+                          ░░▒▒▓▓██████████████████████▓▓▒▒░░                          
+                              ░░▒▒▓▓████████████▓▓▒▒░░                              
+                                  ░░▒▒▓▓██▓▓▒▒░░                                  
+        </div>
+    </div>
+
+    <div class="feature">
+        <h2>📊 Statistical Analysis</h2>
+        <p>Comprehensive statistical tools for data analysis:</p>
+        <div class="code">
+// Linear regression example
+List&lt;double&gt; x = [1, 2, 3, 4, 5];
+List&lt;double&gt; y = [2.1, 4.2, 6.1, 8.2, 10.1];
+var regression = Statistics.linearRegression(x, y);
+print('Slope: ${regression.slope}');  // 2.000
+print('Correlation: ${Statistics.correlation(x, y)}');  // 1.000
+        </div>
+    </div>
+
+    <div class="feature">
+        <h2>🔢 Number Theory Research</h2>
+        <p>Advanced algorithms for mathematical exploration:</p>
+        <div class="code">
+// Perfect numbers
+print(NumberTheory.isPerfect(28));  // true (1+2+4+7+14 = 28)
+
+// Prime factorization  
+print(NumberTheory.primeFactorization(60));  // {2: 2, 3: 1, 5: 1}
+
+// Collatz sequence
+print(NumberTheory.collatzSequence(7));  // [7,22,11,34,17,52,26,13,40,20,10,5,16,8,4,2,1]
+        </div>
+    </div>
+
+    <div class="feature philosophy">
+        <h2>🌌 The Pretrained Universe Hypothesis</h2>
+        <p>This project led to a profound philosophical exploration:</p>
+        <blockquote style="margin: 20px 0; padding: 15px; border-left: 3px solid #7c3aed; font-style: italic;">
+            "What if mathematical laws represent compressed knowledge from previous cosmic iterations? 
+            What if the universe is the output of a vast computational learning system that has been 
+            'trained' through countless universal cycles?"
+        </blockquote>
+        <p>Explore the full philosophical investigation in our detailed analysis of mathematics as cosmic memory.</p>
+    </div>
+
+    <div class="feature">
+        <h2>🚀 Getting Started</h2>
+        <div class="code">
+# Clone the repository
+git clone https://github.com/chientrm/mathre.git
+cd mathre
+
+# Install dependencies
+dart pub get
+
+# Run examples
+dart run bin/main.dart
+dart run examples/visual_examples.dart
+        </div>
+    </div>
+
+    <div class="header">
+        <h2>🔗 Explore the Code</h2>
+        <p>
+            <a href="https://github.com/chientrm/mathre" target="_blank">GitHub Repository</a> | 
+            <a href="https://github.com/chientrm/mathre/blob/main/PHILOSOPHICAL_EXPLORATION.md" target="_blank">Philosophical Exploration</a> |
+            <a href="https://github.com/chientrm/mathre/tree/main/examples" target="_blank">Examples</a>
+        </p>
+        <p style="margin-top: 40px; color: #8b949e;">
+            Mathematical research through computational exploration<br>
+            <em>"When code meets cosmos: discovering the mathematical nature of reality"</em>
+        </p>
+    </div>
+</body>
+</html>
