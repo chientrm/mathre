@@ -24,11 +24,15 @@ echo "4. Running Statistical Research..."
 $DART_PATH run examples/statistical_research.dart
 echo
 
-echo "5. Running Visual Examples..."
+echo "5. Running Cryptography Research..."
+$DART_PATH run examples/cryptography_research.dart
+echo
+
+echo "6. Running Visual Examples..."
 $DART_PATH run examples/visual_examples.dart
 echo
 
-echo "6. Running Simple Plotter Demo..."
+echo "7. Running Simple Plotter Demo..."
 $DART_PATH run lib/simple_plotter.dart
 echo
 

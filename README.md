@@ -47,6 +47,14 @@ This project demonstrates Dart's capabilities for mathematical research and comp
 - **Function Plotting**: Mathematical functions, scatter plots
 - **Simple Plotter Utility**: Reusable plotting functions for data visualization
 
+### 6. Mathematical Cryptography (`lib/cryptography.dart`)
+
+- **RSA Cryptography**: Key generation, encryption, and decryption
+- **Classical Ciphers**: Caesar cipher and Vigenère cipher implementations
+- **Cryptanalysis Tools**: Frequency analysis and chi-squared tests
+- **Random Prime Generation**: Cryptographically relevant prime number generation
+- **Educational Security**: Demonstrates cryptographic concepts for research and learning
+
 ## Installation and Setup
 
 1. **Install Dart SDK** (if not already installed):

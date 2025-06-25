@@ -108,15 +108,44 @@ print(NumberTheory.collatzSequence(7));  // [7,22,11,34,17,52,26,13,40,20,10,5,1
         </div>
     </div>
 
+    <div class="feature">
+        <h2>🔐 Cryptography Research</h2>
+        <p>Educational cryptographic implementations including RSA, classical ciphers, and cryptanalysis:</p>
+        <div class="code">
+// RSA Key Generation and Encryption
+var keys = Cryptography.generateRSAKeys();
+var encrypted = Cryptography.rsaEncrypt(42, keys['publicKey']['n'], keys['publicKey']['e']);
+var decrypted = Cryptography.rsaDecrypt(encrypted, keys['privateKey']['n'], keys['privateKey']['d']);
+print('Original: 42, Decrypted: $decrypted'); // Success!
+
+// Classical Ciphers
+String message = "HELLO WORLD";
+String caesar = Cryptography.caesarCipher(message, 3);
+print('Caesar: $caesar'); // KHOOR ZRUOG
+
+// Frequency Analysis for Cryptanalysis
+var frequencies = Cryptography.frequencyAnalysis(ciphertext);
+double chiSquared = Cryptography.chiSquaredTest(ciphertext);
+print('Chi-squared: $chiSquared'); // Randomness measure
+        </div>
+    </div>
+
     <div class="feature philosophy">
-        <h2>🌌 The Pretrained Universe Hypothesis</h2>
-        <p>This project led to a profound philosophical exploration:</p>
-        <blockquote style="margin: 20px 0; padding: 15px; border-left: 3px solid #7c3aed; font-style: italic;">
-            "What if mathematical laws represent compressed knowledge from previous cosmic iterations? 
-            What if the universe is the output of a vast computational learning system that has been 
-            'trained' through countless universal cycles?"
-        </blockquote>
-        <p>Explore the full philosophical investigation in our detailed analysis of mathematics as cosmic memory.</p>
+        <h2>🧠 Philosophical Research: The Pretrained Universe Hypothesis</h2>
+        <p>Original research exploring whether mathematical laws represent "compressed knowledge" from previous cosmic iterations:</p>
+        <div class="ascii-demo">
+Mathematical Laws = Cosmic Memory?
+
+Universe n-1: [Training Phase] → Compression → Mathematical Constants
+Universe n:   [Inference Phase] → Physical Reality → Observed Phenomena
+
+Key Insights:
+• Mathematical elegance as optimization signature
+• Physical constants as "learned parameters"  
+• Computational origin of natural laws
+• Information as fundamental cosmic substrate
+        </div>
+        <p><strong>This project bridges pure mathematics with computational philosophy, offering new perspectives on the nature of reality itself.</strong></p>
     </div>
 
     <div class="feature">
