@@ -29,7 +29,7 @@
 
 ## 📋 Today's Goals
 
-- [ ] Endorsement request sent to Elias Okon
+- [x] Endorsement request sent to Elias Okon
 - [ ] Paper live on PhilSci Archive
 - [ ] ResearchGate profile created with paper uploaded
 - [ ] Academia.edu profile setup (bonus)
