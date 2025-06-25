@@ -40,6 +40,13 @@ This project demonstrates Dart's capabilities for mathematical research and comp
 - **Polar and rectangular form conversions**
 - **Magnitude and argument calculations**
 
+### 5. Visual Examples (`examples/visual_examples.dart` & `lib/simple_plotter.dart`)
+
+- **ASCII Visualizations**: Prime distributions, Fibonacci growth, Mandelbrot set
+- **Statistical Plots**: Histograms, normal distributions
+- **Function Plotting**: Mathematical functions, scatter plots
+- **Simple Plotter Utility**: Reusable plotting functions for data visualization
+
 ## Installation and Setup
 
 1. **Install Dart SDK** (if not already installed):
@@ -145,6 +152,24 @@ print('z1 + z2 = ${z1 + z2}'); // 4-2i
 print('z1 * z2 = ${z1 * z2}'); // 11+2i
 print('|z1| = ${z1.magnitude}'); // 5.0
 print('exp(iπ) = ${Complex.polar(1, 3.14159).exp}'); // ≈ -1+0i
+```
+
+### Visual Examples
+
+```dart
+import 'lib/simple_plotter.dart';
+
+// Create bar charts
+Map<String, num> data = {'A': 10, 'B': 20, 'C': 15};
+SimplePlotter.barChart(data, title: 'Sample Data');
+
+// Plot mathematical functions
+List<double> yValues = [1, 4, 9, 16, 25]; // x²
+SimplePlotter.lineChart(yValues, title: 'Quadratic Function');
+
+// Create histograms for statistical analysis
+List<double> normalData = generateNormalData(1000);
+SimplePlotter.histogram(normalData, title: 'Normal Distribution');
 ```
 
 ## Research Applications
