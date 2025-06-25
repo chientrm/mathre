@@ -66,3 +66,8 @@ coverage/
 
 # Test results
 test_results/
+
+*.jpeg
+*.pdf
+*.png
+*.html
