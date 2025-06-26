@@ -4,21 +4,48 @@
 
 ### Twitter/X Thread Ideas:
 
-**Thread 1: The Project**
+**X/Twitter Posts (280 char limit):**
+
+**Post 1 - Paper Announcement:**
 
 ```
-🧮 Just published a mathematical research toolkit in Dart!
+🚀 NEW RESEARCH PUBLISHED!
 
-Features:
-✅ Prime number analysis
-✅ Complex number operations
+"The Pretrained Universe Hypothesis: Mathematics as Cosmic Memory"
+
+What if math laws are compressed knowledge from previous universe iterations? 🤯
+
+� https://doi.org/10.5281/zenodo.15748841
+
+#OpenScience #Mathematics #Philosophy
+```
+
+**Post 2 - The Toolkit:**
+
+```
+🧮 Built a mathematical research toolkit in Dart!
+
+✅ Prime analysis
+✅ Complex numbers
+✅ Mandelbrot sets
+✅ Cryptography
 ✅ Statistical tools
-✅ ASCII Mandelbrot set visualization
-✅ Fibonacci sequence research
 
-Plus a mind-bending philosophical exploration 🧠
+💻 https://github.com/chientrm/mathre
 
-#Dart #Mathematics #Research
+#Dart #Mathematics #Research #OpenSource
+```
+
+**Post 3 - The Big Idea:**
+
+```
+🌌 Wild hypothesis: What if our universe is the "inference phase" of a cosmic AI that learned math through previous iterations?
+
+Mathematical laws = compressed cosmic memory 🧠
+
+Full paper: https://doi.org/10.5281/zenodo.15748841
+
+#CosmicAI #Philosophy
 ```
 
 **Thread 2: The Philosophy**

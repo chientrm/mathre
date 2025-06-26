@@ -32,8 +32,11 @@
 - [x] Endorsement request sent to Elias Okon
 - [x] Paper submitted to PhilSci Archive ❌ **REJECTED**
 - [~] ResearchGate profile created with paper uploaded (postponed)
-- [x] **Zenodo submission** ✅ **PUBLISHED** (June 27, 2025) - DOI assigned!
-- [ ] Academia.edu profile setup (bonus)
+- [x] **Zenodo submission** ✅ **PUBLISHED** (June 27, 2025)
+  - **DOI**: https://doi.org/10.5281/zenodo.15748841
+  - **Status**: Live and indexed!
+- [x] **X/Twitter launch** ✅ **POSTED** to e/acc community
+- [x] **Academia.edu** ✅ **POSTED** (June 27, 2025) - Academic networking live!
 
 ## 🎯 Expected Results Today
 
@@ -50,18 +53,34 @@
 - `ENDORSEMENT_REQUEST_READY.md` ✅
 - `SOCIAL_MEDIA_KIT.md` ✅
 - GitHub repository live ✅
+- **Zenodo DOI**: https://doi.org/10.5281/zenodo.15748841 ✅
 
 ### Contact Info:
 
 - **Elias Okon**: eokon@filosoficas.unam.mx
 - **Your GitHub**: https://github.com/chientrm/mathre
 
+### 4. Social Media Launch 📱
+
+- **Platform**: X (Twitter)
+- **Community**: e/acc (effective accelerationism)
+- **Post**: Option 1 - Paper announcement with DOI
+- **Status**: ✅ **POSTED** (June 27, 2025)
+- **Link**: Posted to e/acc community
+
+### 5. Academia.edu Profile 🎓
+
+- **Platform**: Academia.edu
+- **Action**: Profile created + paper uploaded with introduction post
+- **Status**: ✅ **COMPLETED** (June 27, 2025)
+- **Visibility**: Public, academic networking enabled
+
 ## 🔄 After Today
 
 ### Tomorrow:
 
 - Check email responses
-- Begin social media campaign
+- Monitor X engagement and respond to comments
 - Consider additional endorsement requests
 
 ### This Week:
