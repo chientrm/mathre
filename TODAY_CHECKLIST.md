@@ -24,14 +24,14 @@
   - Create profile
   - Upload paper
   - Add project description
-- **Status**: ⏳ Ready to create
+- **Status**: 🔄 **POSTPONED** (needs professional email setup)
 - **Time**: 10 minutes
 
 ## 📋 Today's Goals
 
 - [x] Endorsement request sent to Elias Okon
 - [x] Paper live on PhilSci Archive ✅ **DONE!**
-- [ ] ResearchGate profile created with paper uploaded
+- [~] ResearchGate profile created with paper uploaded (postponed)
 - [ ] Academia.edu profile setup (bonus)
 
 ## 🎯 Expected Results Today
