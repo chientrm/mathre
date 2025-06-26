@@ -6,7 +6,7 @@
 
 - **Action**: Email Elias Okon at `eokon@filosoficas.unam.mx`
 - **Content**: Use the email from `ENDORSEMENT_REQUEST_READY.md`
-- **Status**: ⏳ Ready to send
+- **Status**: ✅ **COMPLETED (June 25, 2025)**
 - **Time**: 5 minutes
 
 ### 2. PhilSci Archive Upload 📄
@@ -14,7 +14,7 @@
 - **URL**: http://philsci-archive.pitt.edu/
 - **File**: `arxiv_paper.pdf`
 - **Benefits**: Immediate publication, Google Scholar indexing
-- **Status**: ⏳ Ready to upload
+- **Status**: ✅ **PUBLISHED! (June 26, 2025)**
 - **Time**: 15 minutes
 
 ### 3. ResearchGate Profile 👥
@@ -30,7 +30,7 @@
 ## 📋 Today's Goals
 
 - [x] Endorsement request sent to Elias Okon
-- [ ] Paper live on PhilSci Archive
+- [x] Paper live on PhilSci Archive ✅ **DONE!**
 - [ ] ResearchGate profile created with paper uploaded
 - [ ] Academia.edu profile setup (bonus)
 
