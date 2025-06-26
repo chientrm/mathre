@@ -74,10 +74,10 @@ GitHub: https://github.com/chientrm/mathre
 ## 📋 Email Sending Checklist
 
 - [x] Copy email text above
-- [x] Send to: eokon@filosoficas.unam.mx
+- [x] Send to: eokon@filosoficas.unam.mx ✅ **SENT (June 25, 2025)**
 - [x] BCC yourself for records
-- [O] Attach your PDF paper (optional for initial contact)
-- [ ] Follow up in 5-7 days if no response
+- [x] No PDF attachment (good choice for initial contact)
+- [ ] Follow up in 5-7 days if no response (by July 2, 2025)
 - [ ] Prepare backup endorsement requests
 
 ## 🔄 Next Steps After Sending
