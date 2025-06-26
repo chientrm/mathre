@@ -14,7 +14,7 @@
 - **URL**: http://philsci-archive.pitt.edu/
 - **File**: `arxiv_paper.pdf`
 - **Benefits**: Immediate publication, Google Scholar indexing
-- **Status**: ✅ **PUBLISHED! (June 26, 2025)**
+- **Status**: ❌ **REJECTED** (June 26, 2025) - "Outside range of suitable material"
 - **Time**: 15 minutes
 
 ### 3. ResearchGate Profile 👥
@@ -30,8 +30,9 @@
 ## 📋 Today's Goals
 
 - [x] Endorsement request sent to Elias Okon
-- [x] Paper live on PhilSci Archive ✅ **DONE!**
+- [x] Paper submitted to PhilSci Archive ❌ **REJECTED**
 - [~] ResearchGate profile created with paper uploaded (postponed)
+- [x] **Zenodo submission** ✅ **PUBLISHED** (June 27, 2025) - DOI assigned!
 - [ ] Academia.edu profile setup (bonus)
 
 ## 🎯 Expected Results Today
