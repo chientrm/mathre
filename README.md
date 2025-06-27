@@ -25,21 +25,7 @@ The universe operates as a computational learning system where:
 
 ## 🧮 Supporting Mathematical Toolkit
 
-This computational research toolkit, implemented in Dart, demonstrates and explores key concepts from the paper through practical mathematical implementations:Research with Dart
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15748841.svg)](https://doi.org/10.5281/zenodo.15748841)
-
-This project demonstrates Dart's capabilities for mathematical research and computation. It includes implementations of various mathematical functions, statistical analysis tools, number theory algorithms, and complex number operations.
-
-## 📄 Research Paper
-
-**"The Pretrained Universe Hypothesis: Mathematics as Cosmic Memory Through Computational Learning"**
-
-- **Published**: Zenodo (June 27, 2025)
-- **DOI**: [10.5281/zenodo.15748841](https://doi.org/10.5281/zenodo.15748841)
-- **Citation**: Tran, C. (2025). The Pretrained Universe Hypothesis: Mathematics as Cosmic Memory Through Computational Learning. _Zenodo_. https://doi.org/10.5281/zenodo.15748841
-
-## Features
+This computational research toolkit, implemented in Dart, demonstrates and explores key concepts from the paper through practical mathematical implementations:
 
 ### 1. Fundamental Mathematical Structures (`lib/math_utils.dart`)
 
