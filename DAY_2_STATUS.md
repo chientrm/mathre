@@ -4,9 +4,11 @@
 
 ### X/Twitter Performance
 
-- **49 views** ✅ Good reach for e/acc community
-- **Audience**: Tech-savvy, AI/philosophy interested
-- **Next**: Post toolkit showcase (Option 2) today
+- **Post 1 (e/acc)**: 49 views ✅ Good reach for e/acc community
+- **Post 2 (#BuildInPublic)**: 26 views, 1 like from verified user ✅ Strong early engagement
+- **Comments/Questions**: None yet (normal for early hours)
+- **Total audience**: Tech-savvy, AI/philosophy + makers community
+- **Quality signal**: Verified user engagement indicates credibility
 
 ### Zenodo Performance
 
